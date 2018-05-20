@@ -2,7 +2,7 @@
 # out the current state.
 
 def display_board(board)
-  for i in 0..board.length-1
-    puts "board["
-end
+  0.step(30,5) do |num|
+    puts "number is #{num}"
+  end
   
