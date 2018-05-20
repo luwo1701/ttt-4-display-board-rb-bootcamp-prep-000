@@ -2,7 +2,7 @@
 # out the current state.
 
 def display_board(board)
-  0.step(9,3) do |i|
+  0.step(6,3) do |i|
     puts " #{board[i]} | #{board[i+1]} | #{board[i+2]}"
     puts "-----------"
   end
