@@ -3,8 +3,11 @@
 
 def display_board(board)
   0.step(6,3) do |i|
-    puts " #{board[i]} | #{board[i+1]} | #{board[i+2]}"
-    puts "-----------"
+    if (i<3)
+      puts " #{board[i]} | #{board[i+1]} | #{board[i+2]}"
+    else
+      puts "-----------"
+    end
   end
 end
   
