@@ -5,8 +5,10 @@ def display_board(board)
   0.step(6,3) do |i|
     if (i<3)
       puts " #{board[i]} | #{board[i+1]} | #{board[i+2]}"
-    else
       puts "-----------"
+    else
+    puts " #{board[i]} | #{board[i+1]} | #{board[i+2]}"
+
     end
   end
 end
