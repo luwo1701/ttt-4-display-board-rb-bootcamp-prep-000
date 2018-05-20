@@ -12,4 +12,4 @@ def display_board(board=[" ", " ", " ", " ", "X", " ", " ", " ", " "])
   end
 end
   
-#isplay_board([" ", " ", " ", " ", "X", " ", " ", " ", " "])
+display_board([" ", " ", " ", " ", " ", " ", " ", " ", " "])
