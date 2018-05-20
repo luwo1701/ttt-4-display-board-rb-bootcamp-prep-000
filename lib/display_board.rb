@@ -2,7 +2,9 @@
 # out the current state.
 
 def display_board(board)
-  0.step(30,5) do |num|
-    puts "number is #{num}"
+  0.step(3,3) do |num|
+    puts "#{board[i]}|#{board[i+1]}|#{board[i+2]}"
+    puts ""
   end
+end
   
